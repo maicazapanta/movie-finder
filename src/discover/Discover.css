@@ -1,0 +1,25 @@
+.movies{
+    margin-left: 150px;
+    margin-top: 10px;
+    height: 300px;
+}
+ 
+
+.like{
+    margin-top: 150px;
+    margin-left: 200px;
+
+
+}
+.title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 50%;
+    }
+  }
