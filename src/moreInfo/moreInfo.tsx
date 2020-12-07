@@ -82,7 +82,9 @@ export const MoreInfo: React.FC<MoreInfoProps> = ({ match }) => {
               <h1>{movie.original_title}</h1>
               Rating: {movie.vote_average}
               <div>{movie.overview}</div>
-              <h3>Released Date:{movie.release_date}</h3>
+              <strong>Released Date:</strong>
+              {movie.release_date}
+              <br></br>
               <strong>Genre:</strong>Comedy/Horror/Thriller
               <br></br>
               <strong>Directed by:</strong> Tim Miller

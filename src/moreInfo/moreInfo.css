@@ -52,6 +52,8 @@
     margin-left: 200px;
     overflow: hidden;
   text-overflow: ellipsis; 
+  color: white;
+  font-size:15px;
     
   }
  
